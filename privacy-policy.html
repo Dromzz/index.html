@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Videomag</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0e0e0e;
+      --surface: #161616;
+      --border: #2a2a2a;
+      --accent: #fe2c55;
+      --text: #e8e8e8;
+      --muted: #888;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      padding: 0 1rem;
+    }
+    header {
+      max-width: 720px;
+      margin: 3rem auto 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+    }
+    .logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+    }
+    header p {
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-top: 0.4rem;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto 5rem;
+    }
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.2rem;
+      font-weight: 400;
+      margin-bottom: 0.5rem;
+      line-height: 1.2;
+    }
+    .last-updated {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--accent);
+      margin: 2.5rem 0 0.75rem;
+    }
+    p { margin-bottom: 1rem; color: #ccc; }
+    ul { padding-left: 1.5rem; margin-bottom: 1rem; color: #ccc; }
+    ul li { margin-bottom: 0.4rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem 2rem;
+      margin-bottom: 1rem;
+    }
+    .section h2 { margin-top: 0; }
+    footer {
+      max-width: 720px;
+      margin: 0 auto 2rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Videomag</div>
+    <p>Automated video publishing tool</p>
+  </header>
+
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: May 27, 2025</p>
+
+    <div class="section">
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy describes how Videomag ("we", "us", or "our"), operated by Florian Schafer, handles information in connection with the Videomag application, which automates the publishing of video content to TikTok via the TikTok API.</p>
+      <p>By using Videomag, you agree to the practices described in this policy.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Information We Access</h2>
+      <p>Videomag accesses the following data through the TikTok API, solely for the purpose of publishing videos on your behalf:</p>
+      <ul>
+        <li>Your TikTok account identifier (used to authenticate API requests)</li>
+        <li>Video files and metadata (title, description, tags) that you provide for upload</li>
+      </ul>
+      <p>We do <strong>not</strong> collect, store, or process any personal data beyond what is strictly necessary for the video publishing function.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. How We Use Your Information</h2>
+      <p>The data accessed through the TikTok API is used exclusively to:</p>
+      <ul>
+        <li>Authenticate your TikTok account and obtain the necessary permissions</li>
+        <li>Upload and publish video content to your TikTok account on your behalf</li>
+      </ul>
+      <p>We do not sell, rent, or share your data with any third parties.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Data Storage & Retention</h2>
+      <p>Videomag does not maintain its own database of user data. OAuth tokens used for TikTok API authentication are stored securely within the automation workflow environment (n8n) and are not retained beyond what is needed for active sessions.</p>
+      <p>Video files processed by the application are sourced from your own Google Drive and are not duplicated or stored by us.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Third-Party Services</h2>
+      <p>Videomag interacts with the following third-party platforms:</p>
+      <ul>
+        <li><strong>TikTok</strong> – via the official TikTok Content Posting API. Your use of TikTok is governed by <a href="https://www.tiktok.com/legal/privacy-policy" target="_blank">TikTok's Privacy Policy</a>.</li>
+        <li><strong>Google Drive</strong> – used as the video source. Your use of Google Drive is governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Security</h2>
+      <p>We take appropriate technical measures to protect any data accessed during the operation of Videomag. Access to API credentials is restricted and not shared with unauthorized parties.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Children's Privacy</h2>
+      <p>Videomag is not intended for use by individuals under the age of 13. We do not knowingly collect any information from children.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact</h2>
+      <p>If you have any questions about this Privacy Policy, you can contact us at:</p>
+      <p><strong>Florian Schafer</strong><br/>
+      Email: <a href="mailto:contact@videomag.app">contact@videomag.app</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Florian Schafer – Videomag. All rights reserved.</p>
+  </footer>
+</body>
+</html>
